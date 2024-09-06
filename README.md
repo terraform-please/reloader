@@ -21,7 +21,7 @@ of your infrastructure using Terraform.
 
 ```hcl
 module "reloader" {
-  source = "git::https://github.com/terraform-please/reloader.git//v1.0.97"
+  source = "git::https://github.com/terraform-please/reloader.git//v1.1.0"
 }
 ```
 
@@ -34,7 +34,7 @@ Update cdktf.json to include the module:
   "terraformModules": [
     {
       "name": "reloader",
-      "source": "git::https://github.com/terraform-please/reloader.git//v1.0.97"
+      "source": "git::https://github.com/terraform-please/reloader.git//v1.1.0"
     }
   ]
 }
